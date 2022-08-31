@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="services.css">
+<html lang="en" dir="ltr">
+  <head>
+    <script src="https://kit.fontawesome.com/67ac240b38.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <title></title>
+    <script src="JavaScript/component.js"></script>
+  </head>
+  <body>
+    <page-navbar></page-navbar>
+    <!-- <div class="navigation-bar">
+      <div class="left">
+        <img class="navigation logo" src="images/logo.png" alt="logo">
+      </div>
+      <div class="right">
+        <div class="navigation"><a class="navi-options" href="index.html">Home</a></div>
+        <div class="navigation"><a class="navi-options" href="#aboutUs">About Us</a></div>
+        <div class="navigation"><a class="navi-options navi-selected" href="services.html">Services</a></div>
+        <div class="navigation"><a class="navi-options" href="projects.html">Projects</a></div>
+        <div class="navigation"><a class="navi-options" href="getQuote.html">Get Quote</a></div>
+      </div>
+    </div> -->
+    <div class="services">
+      <div class="services-head">
+        <img src="images/Services.png" alt="" class="head-img">
+        <div class="head-text">
+          <h1 class="head-text-h1">Services<br>We Provide</h1>
+          <p class="head-text-p">Hospital Communication Systems</p>
+        </div>
+        <button class="free-quote-button" onclick="location.href = 'getQuote.html'">Get a Free Quote Today</button>
+      </div>
+      <div class="services-body">
+        <div class="services-type">
+          <button class="type-text" onclick="changeServices('nurseCallSystems')">EXCELCOMM<br>Nurse Call Systems</button>
+          <button class="type-text" onclick="changeServices('servicePanels')">Bedhead<br>Service Panels</button>
+          <button class="type-text" onclick="changeServices('wallProtection')">Wall Protection</button>
+        </div>
+        <div class="services-description" id="nurseCallSystems">
+          <div class="description-img"><img src="images/Services/Excelcomm Nurse Call Systems.png" alt=""></div>
+          <div class="description-text">
+            <div class="description-title">EXCELCOMM Nurse Call Systems</div>
+            <div class="description-body">EXCELCOMM is a tool for calling nurses in hospitals that is designed easily and can be adapted to client requests, with EXCELCOMM communication problems between patients, nurses and doctors in hospitals can be resolved correctly. EXCELCOMM has quality design, unique features and affordable prices, all combine to deliver an outstanding value system. The facility all the way has chosen Exelcomm knowing that it will provide a reliable service life
+              <br> <br>We provide hospitals with three types of Nuse Call Systems:
+            </div>
+            <div class="description-body body-bold"><br>1. EXCELCOMM One Way Communication Systems</div>
+            <div class="description-body"></div>
+            <div class="description-body body-bold"><br>2. EXCELCOMM Wireless Nurse Call Systems</div>
+            <div class="description-body"></div>
+            <div class="description-body body-bold"><br>3. EXCELCOMM Two Way Communication Systems</div>
+            <div class="description-body">This system uses our latest technology- IP based network. With this system, patients are given the ability to directly communicate with healthcare workers when making a call, providing the convenience and efficiency for both parties. It has the function to transfer patient calls from one nurse station to another after a period of time to ensure patients’ needs are taken care of straightaway. In addition to this, staff from different nurse stations are able to communicate with each other or doctors in charge when there is a need.
+              <br> <br>Other advanced features and additional informations of both EXCELCOMM Systems can be found on our product Brochures. <br> <br></div>
+            <div class="description-body body-bold">EXCELCOMM advantages:</div>
+            <div class="description-body">
+              <ol>
+                <li>Customizable outputs</li>
+                <li>Simple user interface</li>
+                <li>Efficient communication systems</li>
+                <li>Long lasting devices</li>
+              </ol>
+            </div>
+        </div>
+        </div>
+        <div class="services-description" id="servicePanels">
+          <div class="description-img"><img src="images/Services/Bedhead Service Panels.png" alt=""></div>
+          <div class="description-text">
+            <div class="description-title">Bedhead Service Panels</div>
+            <div class="description-body">
+              Bedhead Sevice Panels is used to support patient's medical equipments, and electrical supply. It is designed to be easily accesible for patients and healthcare workers. 
+            </div>
+            <div class="description-body">
+              <ol>
+                <li>Customizable design</li>
+                <li>High precision & quality control</li>
+                <li>Modern Hospital Compatibality</li>
+                <li>Easy implementation</li>
+                <li>Affordable prices</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+        <div class="services-description" id="wallProtection" >
+          <div class="description-img"><img src="images/Services/Wall Protection.png" alt=""></div>
+          <div class="description-text">
+            <div class="description-title">Wall Protection</div>
+            <div>We provide hospitals with two types of wall protection:</div>
+            <div class="description-body body-bold"><br>Wall Guards</div>
+            <div class="description-body">
+              Wall Guards are often placed on the lower part of walls. They provide the protection needed for walls against wheelchair, cart, furniture impacts and other external damages. 
+            </div>
+            <div class="description-body body-bold"><br>Handrails</div>
+            <div class="description-body">
+              Handrails are similar to Wall Guards, with an additional design that made them easily grasped by the hand to provide safety and support for the sick, disabled or weak patients to walk, while at the same time protecting the wall from external damage.
+            </div>
+            <div class="description-body body-bold"><br>Wall Protection advantages:</div>
+            <div class="description-body">
+              <ol>
+                <li>Elegant design</li>
+                <li>Strong durability</li>
+                <li>Light weighted</li>
+                <li>Easy implementation</li>
+                <li>Affordable prices</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <page-footer></page-footer>
+
+</html>
